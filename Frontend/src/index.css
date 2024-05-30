@@ -34,3 +34,11 @@ padding: 0px 150px 0px 150px;
   opacity: 1;
 }
 }
+
+@media (max-width:400px){
+.app{
+  padding: 0px 15px 0px 15px;
+}
+
+
+}

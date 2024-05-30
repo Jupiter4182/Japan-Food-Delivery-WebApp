@@ -24,6 +24,7 @@
     font-weight: 500;
     color: white;
     font-size: max(4.5vw,22px);
+    text-align: left;
 }
 
 .header-contents p{
@@ -51,11 +52,12 @@
 }
 @media (max-width:750px){
    .header{
-    width: 500px;
+    width: auto;
    }
     .header-contents{
         max-width: 65%;
-    }  
+        text-align: left;
+        }  
     .header-contents p {
         display: none;
     }
@@ -64,4 +66,11 @@
         padding: 2vw 4vw;
     }
   
+}
+@media (max-width:450px){
+    .header{
+        width: auto;
+        
+  background-position: center;
+       }
 }

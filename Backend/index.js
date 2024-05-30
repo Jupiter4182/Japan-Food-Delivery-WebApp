@@ -32,5 +32,5 @@ app.get('/', (req, res) => {
 app.listen(port,()=>{
     console.log(`Server Started on http://localhost:${port}`);
 })
-
+module.exports = app;
 // mongodb+srv://greatstack:<password>@greatstack.tpm7oye.mongodb.net/?

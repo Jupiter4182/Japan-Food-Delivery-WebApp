@@ -48,9 +48,16 @@
     padding: 10px;
     border-radius: 4px;
     color: white;
-    background-color: rgb(230, 10, 10);
+    background-color: rgb(255, 94, 0);
     font-size: 15px;
     cursor: pointer;
+}
+.login-popup-container button:hover{
+    
+    color: white;
+    background-color: rgb(255, 136, 39);
+    transition-duration: 500ms;
+  
 }
 .login-popup-condition{
     display: flex;
@@ -64,7 +71,7 @@
 
 .login-popup p span{
     font-weight: 500;
-    color: rgb(230, 10, 10);
+    color: tomato;
     cursor: pointer;
 
 }

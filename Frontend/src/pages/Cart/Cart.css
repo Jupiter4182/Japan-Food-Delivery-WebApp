@@ -48,14 +48,14 @@
 .cart-total button{
     border: none;
     color: #fff;
-    background-color: rgb(230, 10, 10);
+    background-color: rgb(255, 94, 0);
     width: max(15vw,200px);
     padding: 12px 0px;
     cursor: pointer;
     border-radius: 4px;
 }
 .cart-total button:hover{
-    background-color: rgb(221, 45, 45);
+    background-color: rgb(255, 136, 39);
     transition-duration: 500ms;
 }
 .cart-promocode{

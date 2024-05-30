@@ -89,7 +89,7 @@ const LoginPopup = ({ setShowLogin }) => {
 
         <div className="login-popup-condition">
           <input type="checkbox" required />
-          <p>By Contunuing,i afree to use privacy policy.</p>
+          <p>By Contunuing,i agree to use privacy policy.</p>
         </div>
         {currState === "Login" ? (
           <p>

@@ -75,9 +75,11 @@
     transition: 0.3s;
 }
 .navbar button:hover{
-    background-color: rgb(230, 10, 10);
+    background-color: rgb(255, 94, 0);
     color: #fff;
-    border: rgb(230, 10, 10);
+     
+    border: 1px solid rgb(255, 94, 0);
+    
     
 }
 

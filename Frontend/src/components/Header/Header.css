@@ -4,11 +4,14 @@
     /* background: url('/header_img.png') no-repeat ; */
     background: url('../../assets/header_img.png') no-repeat;
     width: 100%;
-    background-size: cover;
-    background-position: center;
     position: relative;
-    background-attachment: fixed;
     
+
+     background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
 }
 .header-contents{
     position: absolute;
@@ -71,7 +74,13 @@
 }
 @media (max-width:465px){
     .header{
-        width: auto;
+        width: auto;    
 
        }
+}
+@media (max-width:310px){
+    .header{
+        background-size: 100%;
+        
+    }
 }

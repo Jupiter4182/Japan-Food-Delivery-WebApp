@@ -8,7 +8,7 @@
 }
 
 body{
-width: 100%;
+width: 100vw;
 min-height: 100dvh;
 }
 
@@ -32,15 +32,21 @@ padding: 0px 150px 0px 150px;
 }
 @media (max-width:750px) {
   .app{
-    width: 750px;
+    width: auto;
   }
   
 }
 @media (max-width:450px){
 .app{
-  width: 450px;
+  max-width: 100%;
   padding: 0px 15px 0px 15px;
 }
-
+@media (max-width:320px) {
+ .app{
+  width: auto;
+   padding: 0;
+   
+}
+}
 
 }
